@@ -1,16 +1,21 @@
-# amplify_sms_test
+# SMS Flows with Amplify
 
-A Flutter application to test SMS flows of Amplify
+This is a companion project to work with the blog post.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+For running the project, you can either follow the steps on the blog post or, you can configure and initialize the AWS Amplify 
+on your local machine.
 
-A few resources to get you started if this is your first Flutter project:
+The project is split into two different files, you can either configure your IDE to run the application accordingly or you can
+run the following commands:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For Sign In,
+```console
+flutter run -t lib/main_signin.dart
+```
+and for sign up,
+```console
+# For Sign Up
+flutter run -t lib/main_signup.dart
+```
